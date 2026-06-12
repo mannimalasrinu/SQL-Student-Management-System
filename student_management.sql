@@ -91,3 +91,6 @@ SELECT city, AVG(marks) AS Average_Marks
 FROM Students
 GROUP BY city
 HAVING AVG(marks) > 85;
+
+SELECT MAX(marks)
+FROM Students;
